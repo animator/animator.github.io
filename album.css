@@ -1,0 +1,70 @@
+:root {
+  --bd-twitter: #1da1f2;
+  --bd-twitter-rgb: 29, 161, 242;
+  --bd-linkedin: #0077b5;
+  --bd-linkedin-rgb: 0, 119, 181;
+  --bd-medium: #000000;
+  --bd-medium-rgb: 0, 0, 0;
+  --bd-instagram: #405DE6;
+  --bd-instagram-rgb: 5, 10, 230;
+}
+
+.btn-tw-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-twitter);
+  --bs-btn-border-color: var(--bd-twitter);
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: var(--bd-twitter);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: var(--bd-twitter);
+  --bs-btn-focus-shadow-rgb: var(--bd-twitter-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: var(--bs-white);
+  --bs-btn-active-border-color: var(--bd-twitter);
+}
+
+.btn-lk-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-linkedin);
+  --bs-btn-border-color: var(--bd-linkedin);
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: var(--bd-linkedin);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: var(--bd-linkedin);
+  --bs-btn-focus-shadow-rgb: var(--bd-linkedin-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: var(--bs-white);
+  --bs-btn-active-border-color: var(--bd-linkedin);
+}
+
+.btn-mu-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-medium);
+  --bs-btn-border-color: var(--bd-medium);
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: var(--bd-medium);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: var(--bd-medium);
+  --bs-btn-focus-shadow-rgb: var(--bd-medium-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: var(--bs-white);
+  --bs-btn-active-border-color: var(--bd-medium);
+}
+
+.btn-ig-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-instagram);
+  --bs-btn-border-color: var(--bd-instagram);
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: var(--bd-instagram);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: var(--bd-instagram);
+  --bs-btn-focus-shadow-rgb: var(--bd-instagram-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: var(--bs-white);
+  --bs-btn-active-border-color: var(--bd-instagram);
+}
